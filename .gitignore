@@ -1,0 +1,22 @@
+# dependencias
+node_modules
+.pnpm-store
+
+# build
+dist
+dist-ssr
+
+# entorno
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+pnpm-debug.log*
+
+# editor / sistema
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
